@@ -6,7 +6,6 @@ import '../styles/global.css';
 
 <BaseLayout title='Image Gallery | Pines UI'>
   <div
-    class='w-full h-full select-none'
     x-data='imageGallery'
     @image-gallery-next.window='imageGalleryNext()'
     @image-gallery-prev.window='imageGalleryPrev()'
@@ -18,6 +17,7 @@ import '../styles/global.css';
         imageGalleryPhotos[i].setAttribute('data-index', i+1);
       }
     "
+    class='w-full h-full select-none'
   >
     <div
       class='max-w-6xl mx-auto duration-1000 delay-300 opacity-0 select-none ease animate-fade-in-view'
@@ -121,7 +121,6 @@ import '../styles/global.css';
         @keydown.window.escape='imageGalleryClose'
         x-trap.inert.noscroll='imageGalleryOpened'
         class='fixed inset-0 z-[99] flex items-center justify-center bg-black bg-opacity-50 select-none cursor-zoom-out'
-        x-cloak
       >
         <div
           class='relative flex items-center justify-center w-11/12 xl:w-4/5 h-11/12'
