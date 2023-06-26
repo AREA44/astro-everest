@@ -4,8 +4,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  // Set the site and base option to deploy to GitHub Pages
-  site: 'https://area44.github.io',
-  base: '/astro-everest',
+  site: process.env.CI ? 'https://area44.github.io' : `http://localhost:3000`,
+  base: process.env.CI ? '/astro-everest' : undefined,
   integrations: [alpinejs(), tailwind()],
 });
