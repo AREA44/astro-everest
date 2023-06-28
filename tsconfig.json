@@ -16,8 +16,10 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "ignoreDeprecations": "5.0",
+    "allowJs": true
   },
-  "ignoreDeprecations": "5.0",
-  "allowJs": true
+  "include": ["./src/env.d.ts", "**/*.{ts}", "**/*.{tsx}", "astro.config.mjs"],
+  "exclude": ["node_modules"]
 }
