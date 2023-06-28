@@ -15,7 +15,15 @@ const { title } = Astro.props;
 		<link rel='icon' type='image/svg+xml' href='./favicon.svg' />
 		<meta name='generator' content={Astro.generator} />
 		<title>{title}</title>
-		<meta name='description' content='Astro description' />
+		<meta
+			name='description'
+			content='The image gallery was built with Alpine.js and TailwindCSS'
+		/>
+		<style>
+			[x-cloak] {
+				display: none !important;
+			}
+		</style>
 	</head>
 	<body class='flex items-start justify-center h-full bg-gray-50'>
 		<div class='flex items-center justify-center w-full max-w-full p-4'>
