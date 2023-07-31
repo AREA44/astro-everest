@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@types/alpinejs": "^3.7.2",
-    "@types/node": "20.4.4",
+    "@types/node": "20.4.5",
     "@types/react": "^18.2.13",
     "@types/react-dom": "^18.2.6",
     "prettier": "^3.0.0",
