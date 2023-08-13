@@ -1,14 +1,14 @@
 {
   "name": "@area44/astro-everest",
-  "description": "The image gallery was built with Alpine.js and TailwindCSS",
-  "private": true,
   "version": "0.2.0",
+  "private": true,
+  "description": "The image gallery was built with Alpine.js and TailwindCSS",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
     "build": "astro build",
+    "dev": "astro dev",
+    "format": "prettier -w . --cache",
     "preview": "astro preview",
-    "format": "prettier -w . --cache"
+    "start": "astro dev"
   },
   "dependencies": {
     "@astrojs/alpinejs": "^0.2.2",
