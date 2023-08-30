@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@astrojs/alpinejs':
-    specifier: ^0.2.2
-    version: 0.2.2(@types/alpinejs@3.7.2)(alpinejs@3.13.0)
+    specifier: ^0.3.0
+    version: 0.3.0(@types/alpinejs@3.7.2)(alpinejs@3.13.0)
   '@astrojs/tailwind':
     specifier: ^4.0.0
     version: 4.0.0(astro@2.10.14)(tailwindcss@3.3.3)
@@ -59,8 +59,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.19
     dev: false
 
-  /@astrojs/alpinejs@0.2.2(@types/alpinejs@3.7.2)(alpinejs@3.13.0):
-    resolution: {integrity: sha512-YX224PPxv+RymzOKFspY1K1aw7rCT2qOuUrRgfnDgwuQ2GMe9S13zmBzIC7BrkK4kNbh+6nWZW9lXVkGlO6mww==}
+  /@astrojs/alpinejs@0.3.0(@types/alpinejs@3.7.2)(alpinejs@3.13.0):
+    resolution: {integrity: sha512-vxyCZqDay5Eg6MFc2MgvrDF/r07sWVdQNi95qP+OhCB7gIYCAF+6tGk3qMxXHSw0Ywt7n6ZzILlokvaw8NIUtA==}
     peerDependencies:
       '@types/alpinejs': ^3.0.0
       alpinejs: ^3.0.0
