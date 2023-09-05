@@ -1,8 +1,8 @@
 {
   "name": "@area44/astro-everest",
-  "version": "0.2.0",
+  "version": "23.9.5",
   "private": true,
-  "description": "The image gallery was built with Alpine.js and TailwindCSS",
+  "description": "An image gallery built with Alpine.js and TailwindCSS",
   "scripts": {
     "build": "astro build",
     "dev": "astro dev",
@@ -14,17 +14,17 @@
     "@astrojs/alpinejs": "^0.3.0",
     "@astrojs/tailwind": "^5.0.0",
     "alpinejs": "^3.13.0",
-    "astro": "^3.0.0",
+    "astro": "^3.0.8",
     "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
     "@types/alpinejs": "^3.7.2",
-    "@types/node": "^20.5.6",
+    "@types/node": "^20.5.9",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
-    "prettier": "^3.0.2",
+    "prettier": "^3.0.3",
     "prettier-plugin-astro": "^0.12.0",
-    "prettier-plugin-tailwindcss": "^0.5.3"
+    "prettier-plugin-tailwindcss": "^0.5.4"
   },
   "packageManager": "pnpm@8.7.1"
 }
