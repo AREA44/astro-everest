@@ -1,6 +1,6 @@
 # Astro Everest
 
-The image gallery was built with Alpine.js and TailwindCSS.
+Astro Everest is an image gallery built with Alpine.js and TailwindCSS.
 
 ## Develop locally
 
@@ -9,12 +9,12 @@ pnpm install
 pnpm dev
 ```
 
-Now, your website is running at http://localhost:3000
+Now, your website is running at http://localhost:4321
 
 ## License
 
-Licensed under the [MIT](LICENSE) license.
+Licensed under the [MIT License](LICENSE).
 
-## Inspiration
+## Credits
 
-This project has taken inspiration from [Pines UI](https://devdojo.com/pines).
+This project has been inspired by [Pines UI](https://devdojo.com/pines).
