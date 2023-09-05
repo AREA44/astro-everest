@@ -27,7 +27,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro'
           <li>
             <img
               x-on:click="imageGalleryOpen"
-              :src="image.photo"
+              :src="image.src"
               :alt="image.alt"
               :data-index="index+1"
               class="aspect-[5/6] h-auto w-full cursor-zoom-in select-none rounded bg-gray-200 object-cover lg:aspect-[2/3] xl:aspect-[3/4]"
@@ -111,43 +111,43 @@ import BaseLayout from '@/layouts/BaseLayout.astro'
       imageGalleryImageIndex: null,
       imageGallery: [
         {
-          photo: 'gallery/alain-gehri-BqkbDOVoiyk-unsplash.webp',
+          src: 'gallery/alain-gehri-BqkbDOVoiyk-unsplash.webp',
           alt: 'Photo 1',
         },
         {
-          photo: 'gallery/alex-turcu-aEXyyX3VCMg-unsplash.webp',
+          src: 'gallery/alex-turcu-aEXyyX3VCMg-unsplash.webp',
           alt: 'Photo 2',
         },
         {
-          photo: 'gallery/anubhav-rana-x2LStfRm7g0-unsplash.webp',
+          src: 'gallery/anubhav-rana-x2LStfRm7g0-unsplash.webp',
           alt: 'Photo 3',
         },
         {
-          photo: 'gallery/george-ivanov-K7HvIvsPy8w-unsplash.webp',
+          src: 'gallery/george-ivanov-K7HvIvsPy8w-unsplash.webp',
           alt: 'Photo 4',
         },
         {
-          photo: 'gallery/jake-hills-z0gDv24X3uQ-unsplash.webp',
+          src: 'gallery/jake-hills-z0gDv24X3uQ-unsplash.webp',
           alt: 'Photo 5',
         },
         {
-          photo: 'gallery/jerry-zhang-VrAl7hRVX4A-unsplash.webp',
+          src: 'gallery/jerry-zhang-VrAl7hRVX4A-unsplash.webp',
           alt: 'Photo 6',
         },
         {
-          photo: 'gallery/joshua-earle--87JyMb9ZfU-unsplash.webp',
+          src: 'gallery/joshua-earle--87JyMb9ZfU-unsplash.webp',
           alt: 'Photo 7',
         },
         {
-          photo: 'gallery/lucian-v_mTgSs6UiY-unsplash.webp',
+          src: 'gallery/lucian-v_mTgSs6UiY-unsplash.webp',
           alt: 'Photo 8',
         },
         {
-          photo: 'gallery/neom-0SUho_B0nus-unsplash.webp',
+          src: 'gallery/neom-0SUho_B0nus-unsplash.webp',
           alt: 'Photo 9',
         },
         {
-          photo: 'gallery/sava-bobov-AYmUgOqRoGA-unsplash.webp',
+          src: 'gallery/sava-bobov-AYmUgOqRoGA-unsplash.webp',
           alt: 'Photo 10',
         },
       ],
