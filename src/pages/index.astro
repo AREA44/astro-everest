@@ -50,7 +50,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro'
         x-cloak
       >
         <div
-          class="h-11/12 relative flex w-11/12 items-center justify-center xl:w-4/5"
+          class="relative flex h-full w-auto items-center justify-center xl:w-4/5"
         >
           <div
             @click="$event.stopPropagation(); $dispatch('image-gallery-prev')"
@@ -111,44 +111,44 @@ import BaseLayout from '@/layouts/BaseLayout.astro'
       imageGalleryImageIndex: null,
       imageGallery: [
         {
-          photo: 'https://cdn.devdojo.com/images/june2023/mountains-01.jpeg',
-          alt: 'Photo of Mountains',
+          photo: 'gallery/alain-gehri-BqkbDOVoiyk-unsplash.webp',
+          alt: 'Photo 1',
         },
         {
-          photo: 'https://cdn.devdojo.com/images/june2023/mountains-02.jpeg',
-          alt: 'Photo of Mountains 02',
+          photo: 'gallery/alex-turcu-aEXyyX3VCMg-unsplash.webp',
+          alt: 'Photo 2',
         },
         {
-          photo: 'https://cdn.devdojo.com/images/june2023/mountains-03.jpeg',
-          alt: 'Photo of Mountains 03',
+          photo: 'gallery/anubhav-rana-x2LStfRm7g0-unsplash.webp',
+          alt: 'Photo 3',
         },
         {
-          photo: 'https://cdn.devdojo.com/images/june2023/mountains-04.jpeg',
-          alt: 'Photo of Mountains 04',
+          photo: 'gallery/george-ivanov-K7HvIvsPy8w-unsplash.webp',
+          alt: 'Photo 4',
         },
         {
-          photo: 'https://cdn.devdojo.com/images/june2023/mountains-05.jpeg',
-          alt: 'Photo of Mountains 05',
+          photo: 'gallery/jake-hills-z0gDv24X3uQ-unsplash.webp',
+          alt: 'Photo 5',
         },
         {
-          photo: 'https://cdn.devdojo.com/images/june2023/mountains-06.jpeg',
-          alt: 'Photo of Mountains 06',
+          photo: 'gallery/jerry-zhang-VrAl7hRVX4A-unsplash.webp',
+          alt: 'Photo 6',
         },
         {
-          photo: 'https://cdn.devdojo.com/images/june2023/mountains-07.jpeg',
-          alt: 'Photo of Mountains 07',
+          photo: 'gallery/joshua-earle--87JyMb9ZfU-unsplash.webp',
+          alt: 'Photo 7',
         },
         {
-          photo: 'https://cdn.devdojo.com/images/june2023/mountains-08.jpeg',
-          alt: 'Photo of Mountains 08',
+          photo: 'gallery/lucian-v_mTgSs6UiY-unsplash.webp',
+          alt: 'Photo 8',
         },
         {
-          photo: 'https://cdn.devdojo.com/images/june2023/mountains-09.jpeg',
-          alt: 'Photo of Mountains 09',
+          photo: 'gallery/neom-0SUho_B0nus-unsplash.webp',
+          alt: 'Photo 9',
         },
         {
-          photo: 'https://cdn.devdojo.com/images/june2023/mountains-10.jpeg',
-          alt: 'Photo of Mountains 10',
+          photo: 'gallery/sava-bobov-AYmUgOqRoGA-unsplash.webp',
+          alt: 'Photo 10',
         },
       ],
       imageGalleryOpen(event) {
