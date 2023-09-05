@@ -2,7 +2,7 @@
   "name": "@area44/astro-everest",
   "version": "23.9.5",
   "private": true,
-  "description": "The image gallery was built with Alpine.js and TailwindCSS",
+  "description": "An image gallery built with Alpine.js and TailwindCSS",
   "scripts": {
     "build": "astro build",
     "dev": "astro dev",

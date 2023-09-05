@@ -1,33 +1,33 @@
 ---
+import '@/styles/global.css'
+
 export interface Props {
-	title: string;
+  title: string | undefined
+  description: string | undefined
 }
 
-const { title } = Astro.props;
+const { title, description } = Astro.props
 ---
 
-<!DOCTYPE html>
-<html lang='en'>
-	<head>
-		<meta charset='UTF-8' />
-		<meta http-equiv='X-UA-Compatible' content='IE=edge' />
-		<meta name='viewport' content='width=device-width initial-scale=1.0' />
-		<link rel='icon' type='image/svg+xml' href='./favicon.svg' />
-		<meta name='generator' content={Astro.generator} />
-		<title>{title}</title>
-		<meta
-			name='description'
-			content='The image gallery was built with Alpine.js and TailwindCSS'
-		/>
-		<style>
-			[x-cloak] {
-				display: none !important;
-			}
-		</style>
-	</head>
-	<body class='flex items-start justify-center h-full bg-gray-50'>
-		<div class='flex items-center justify-center w-full max-w-full p-4'>
-			<slot />
-		</div>
-	</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <style>
+      [x-cloak] {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body class="flex h-full items-start justify-center bg-gray-50">
+    <div class="flex w-full max-w-full items-center justify-center p-4">
+      <slot />
+    </div>
+  </body>
 </html>
