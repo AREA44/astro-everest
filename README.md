@@ -1,6 +1,6 @@
 # Astro Everest
 
-Astro Everest is an image gallery built with Alpine.js and TailwindCSS.
+Astro Everest is an image gallery built with Alpine.js and Tailwind CSS.
 
 ## Develop locally
 
