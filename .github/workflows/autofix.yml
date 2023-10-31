@@ -13,15 +13,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
       - name: Install pnpm
         uses: pnpm/action-setup@v2
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
+
       - name: Format with Prettier
         run: pnpm exec prettier -w . "!.github"
 
       - name: Run autofix.ci
-        uses: autofix-ci/action@d3e591514b99d0fca6779455ff8338516663f7cc
+        uses: autofix-ci/action@v1.3
