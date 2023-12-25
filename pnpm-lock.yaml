@@ -9,14 +9,14 @@ dependencies:
     specifier: ^0.3.1
     version: 0.3.1(@types/alpinejs@3.13.5)(alpinejs@3.13.3)
   '@astrojs/tailwind':
-    specifier: ^5.0.3
-    version: 5.0.3(astro@4.0.6)(tailwindcss@3.4.0)
+    specifier: ^5.0.4
+    version: 5.0.4(astro@4.0.7)(tailwindcss@3.4.0)
   alpinejs:
     specifier: ^3.13.3
     version: 3.13.3
   astro:
-    specifier: ^4.0.6
-    version: 4.0.6(@types/node@20.10.5)
+    specifier: ^4.0.7
+    version: 4.0.7(@types/node@20.10.5)
   tailwindcss:
     specifier: ^3.4.0
     version: 3.4.0
@@ -109,13 +109,13 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/tailwind@5.0.3(astro@4.0.6)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-p+uFa1PNuV8RxhGkPUFgVq8CUbmS3xr0u5k1An2xKECLotRh7vsrGcPUijHvYOt42URohcg8rIq0CxNoVMhReg==}
+  /@astrojs/tailwind@5.0.4(astro@4.0.7)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-50ImfEFRBjndtWus6xJOWQ4EVpZWB4d+hieosMPm1Tca68mNTX+Yi1/PhTMk9q/w7iZPIUK/KGBoovo15O10eQ==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.0.6(@types/node@20.10.5)
+      astro: 4.0.7(@types/node@20.10.5)
       autoprefixer: 10.4.16(postcss@8.4.32)
       postcss: 8.4.32
       postcss-load-config: 4.0.2(postcss@8.4.32)
@@ -902,8 +902,8 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
     dev: false
 
-  /astro@4.0.6(@types/node@20.10.5):
-    resolution: {integrity: sha512-P7CfFqWKzkJozzF6IoOC6qoI2ONndV8P3ULhGDgMiXPL7xVkWI5haTBSpyrcjBx643tVXspIRsSV/v+Cx+CjGw==}
+  /astro@4.0.7(@types/node@20.10.5):
+    resolution: {integrity: sha512-K+Ms2AAQvi6yERPuglcI69tnHyTT44JCjzqprSjw3uOwFX7N9obpLgbhmLMH1fPFTgzt3ZD7APjmtDPN51makw==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -948,7 +948,7 @@ packages:
       mime: 3.0.0
       ora: 7.0.1
       p-limit: 5.0.0
-      p-queue: 7.4.1
+      p-queue: 8.0.1
       path-to-regexp: 6.2.1
       preferred-pm: 3.1.2
       probe-image-size: 7.2.3
@@ -963,8 +963,8 @@ packages:
       tsconfck: 3.0.0
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.0.7(@types/node@20.10.5)
-      vitefu: 0.2.5(vite@5.0.7)
+      vite: 5.0.10(@types/node@20.10.5)
+      vitefu: 0.2.5(vite@5.0.10)
       which-pm: 2.1.1
       yargs-parser: 21.1.1
       zod: 3.22.4
@@ -2665,17 +2665,17 @@ packages:
       p-limit: 3.1.0
     dev: false
 
-  /p-queue@7.4.1:
-    resolution: {integrity: sha512-vRpMXmIkYF2/1hLBKisKeVYJZ8S2tZ0zEAmIJgdVKP2nq0nh4qCdf8bgw+ZgKrkh71AOCaqzwbJJk1WtdcF3VA==}
-    engines: {node: '>=12'}
+  /p-queue@8.0.1:
+    resolution: {integrity: sha512-NXzu9aQJTAzbBqOt2hwsR63ea7yvxJc0PwN/zobNAudYfb1B7R08SzB4TsLeSbUCuG467NhnoT0oO6w1qRO+BA==}
+    engines: {node: '>=18'}
     dependencies:
       eventemitter3: 5.0.1
-      p-timeout: 5.1.0
+      p-timeout: 6.1.2
     dev: false
 
-  /p-timeout@5.1.0:
-    resolution: {integrity: sha512-auFDyzzzGZZZdHz3BtET9VEz0SE/uMEAx7uWfGPucfzEwwe/xH0iVeZibQmANYE/hp9T2+UUZT5m+BKyrDp3Ew==}
-    engines: {node: '>=12'}
+  /p-timeout@6.1.2:
+    resolution: {integrity: sha512-UbD77BuZ9Bc9aABo74gfXhNvzC9Tx7SxtHSh1fxvx3jTLLYvmVhiQZZrJzqqU0jKbN32kb5VOKiLEQI/3bIjgQ==}
+    engines: {node: '>=14.16'}
     dev: false
 
   /p-try@2.2.0:
@@ -2792,7 +2792,7 @@ packages:
     dependencies:
       lilconfig: 2.1.0
       postcss: 8.4.32
-      yaml: 2.3.2
+      yaml: 2.3.4
     dev: false
 
   /postcss-load-config@4.0.2(postcss@8.4.32):
@@ -3755,8 +3755,8 @@ packages:
       vfile-message: 4.0.2
     dev: false
 
-  /vite@5.0.7(@types/node@20.10.5):
-    resolution: {integrity: sha512-B4T4rJCDPihrQo2B+h1MbeGL/k/GMAHzhQ8S0LjQ142s6/+l3hHTT095ORvsshj4QCkoWu3Xtmob5mazvakaOw==}
+  /vite@5.0.10(@types/node@20.10.5):
+    resolution: {integrity: sha512-2P8J7WWgmc355HUMlFrwofacvr98DAjoE52BfdbwQtyLH06XKwaL/FMnmKM2crF0iX4MpmMKoDlNCB1ok7zHCw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -3791,7 +3791,7 @@ packages:
       fsevents: 2.3.3
     dev: false
 
-  /vitefu@0.2.5(vite@5.0.7):
+  /vitefu@0.2.5(vite@5.0.10):
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -3799,7 +3799,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.0.7(@types/node@20.10.5)
+      vite: 5.0.10(@types/node@20.10.5)
     dev: false
 
   /web-namespaces@2.0.1:
@@ -3861,11 +3861,6 @@ packages:
 
   /yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
-    dev: false
-
-  /yaml@2.3.2:
-    resolution: {integrity: sha512-N/lyzTPaJasoDmfV7YTrYCI0G/3ivm/9wdG0aHuheKowWQwGTsK0Eoiw6utmzAnI6pkJa0DUVygvp3spqqEKXg==}
-    engines: {node: '>= 14'}
     dev: false
 
   /yaml@2.3.4:
