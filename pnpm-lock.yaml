@@ -7,33 +7,33 @@ settings:
 dependencies:
   '@astrojs/alpinejs':
     specifier: ^0.4.0
-    version: 0.4.0(@types/alpinejs@3.13.6)(alpinejs@3.13.5)
+    version: 0.4.0(@types/alpinejs@3.13.7)(alpinejs@3.13.7)
   '@astrojs/tailwind':
     specifier: ^5.1.0
-    version: 5.1.0(astro@4.4.9)(tailwindcss@3.4.1)
+    version: 5.1.0(astro@4.4.15)(tailwindcss@3.4.1)
   alpinejs:
-    specifier: ^3.13.5
-    version: 3.13.5
+    specifier: ^3.13.7
+    version: 3.13.7
   astro:
-    specifier: ^4.4.9
-    version: 4.4.9(@types/node@20.11.24)
+    specifier: ^4.4.15
+    version: 4.4.15(@types/node@20.11.25)
   tailwindcss:
     specifier: ^3.4.1
     version: 3.4.1
 
 devDependencies:
   '@types/alpinejs':
-    specifier: ^3.13.6
-    version: 3.13.6
+    specifier: ^3.13.7
+    version: 3.13.7
   '@types/node':
-    specifier: ^20.11.24
-    version: 20.11.24
+    specifier: ^20.11.25
+    version: 20.11.25
   '@types/react':
-    specifier: ^18.2.61
-    version: 18.2.61
+    specifier: ^18.2.64
+    version: 18.2.64
   '@types/react-dom':
-    specifier: ^18.2.19
-    version: 18.2.19
+    specifier: ^18.2.21
+    version: 18.2.21
   prettier:
     specifier: ^3.2.5
     version: 3.2.5
@@ -41,8 +41,8 @@ devDependencies:
     specifier: ^0.13.0
     version: 0.13.0
   prettier-plugin-tailwindcss:
-    specifier: ^0.5.11
-    version: 0.5.11(prettier-plugin-astro@0.13.0)(prettier@3.2.5)
+    specifier: ^0.5.12
+    version: 0.5.12(prettier-plugin-astro@0.13.0)(prettier@3.2.5)
 
 packages:
 
@@ -59,14 +59,14 @@ packages:
       '@jridgewell/trace-mapping': 0.3.19
     dev: false
 
-  /@astrojs/alpinejs@0.4.0(@types/alpinejs@3.13.6)(alpinejs@3.13.5):
+  /@astrojs/alpinejs@0.4.0(@types/alpinejs@3.13.7)(alpinejs@3.13.7):
     resolution: {integrity: sha512-68BY1CA0XuielLW3WdX2sfh9F4sSTnFqQ//IE9AditbiYJ77HJDb4uZx07pTFDtr1jOMU7lCvH+iS9gmNafM1g==}
     peerDependencies:
       '@types/alpinejs': ^3.0.0
       alpinejs: ^3.0.0
     dependencies:
-      '@types/alpinejs': 3.13.6
-      alpinejs: 3.13.5
+      '@types/alpinejs': 3.13.7
+      alpinejs: 3.13.7
     dev: false
 
   /@astrojs/compiler@1.8.2:
@@ -109,13 +109,13 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/tailwind@5.1.0(astro@4.4.9)(tailwindcss@3.4.1):
+  /@astrojs/tailwind@5.1.0(astro@4.4.15)(tailwindcss@3.4.1):
     resolution: {integrity: sha512-BJoCDKuWhU9FT2qYg+fr6Nfb3qP4ShtyjXGHKA/4mHN94z7BGcmauQK23iy+YH5qWvTnhqkd6mQPQ1yTZTe9Ig==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.4.9(@types/node@20.11.24)
+      astro: 4.4.15(@types/node@20.11.25)
       autoprefixer: 10.4.16(postcss@8.4.32)
       postcss: 8.4.32
       postcss-load-config: 4.0.2(postcss@8.4.32)
@@ -723,8 +723,8 @@ packages:
     dev: false
     optional: true
 
-  /@types/alpinejs@3.13.6:
-    resolution: {integrity: sha512-BMi1/2uQz7mp30VFn69SzjN7YwQ0QzE4Hn3RMBt4iMpQeasdbMiImv1f5yvK1bYmvjIyG/YFg+CgPxbjIXZk0g==}
+  /@types/alpinejs@3.13.7:
+    resolution: {integrity: sha512-9VH1N/414xJy9FJXXAfwQjbX+i+Qr9Xs8xAI1xBdD79X2EvHnAen5qRiSsbJuhqQJ9J798W3CUva21EidO3krw==}
 
   /@types/babel__core@7.20.5:
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -787,8 +787,8 @@ packages:
       '@types/unist': 2.0.8
     dev: false
 
-  /@types/node@20.11.24:
-    resolution: {integrity: sha512-Kza43ewS3xoLgCEpQrsT+xRo/EJej1y0kVYGiLFE1NEODXGzTfwiC6tXTLMQskn1X4/Rjlh0MQUvx9W+L9long==}
+  /@types/node@20.11.25:
+    resolution: {integrity: sha512-TBHyJxk2b7HceLVGFcpAUjsa5zIdsPWlR6XHfyGzd0SFu+/NFgQgMAl96MSDZgQDvJAvV6BKsFOrt6zIL09JDw==}
     dependencies:
       undici-types: 5.26.5
 
@@ -796,14 +796,14 @@ packages:
     resolution: {integrity: sha512-FbtmBWCcSa2J4zL781Zf1p5YUBXQomPEcep9QZCfRfQgTxz3pJWiDFLebohZ9fFntX5ibzOkSsrJ0TEew8cAog==}
     dev: true
 
-  /@types/react-dom@18.2.19:
-    resolution: {integrity: sha512-aZvQL6uUbIJpjZk4U8JZGbau9KDeAwMfmhyWorxgBkqDIEf6ROjRozcmPIicqsUwPUjbkDfHKgGee1Lq65APcA==}
+  /@types/react-dom@18.2.21:
+    resolution: {integrity: sha512-gnvBA/21SA4xxqNXEwNiVcP0xSGHh/gi1VhWv9Bl46a0ItbTT5nFY+G9VSQpaG/8N/qdJpJ+vftQ4zflTtnjLw==}
     dependencies:
-      '@types/react': 18.2.61
+      '@types/react': 18.2.64
     dev: true
 
-  /@types/react@18.2.61:
-    resolution: {integrity: sha512-NURTN0qNnJa7O/k4XUkEW2yfygA+NxS0V5h1+kp9jPwhzZy95q3ADoGMP0+JypMhrZBTTgjKAUlTctde1zzeQA==}
+  /@types/react@18.2.64:
+    resolution: {integrity: sha512-MlmPvHgjj2p3vZaxbQgFUQFvD8QiZwACfGqEdDSWou5yISWxDQ4/74nCAwsUiX7UFLKZz3BbVSPj+YxeoGGCfg==}
     dependencies:
       '@types/prop-types': 15.7.7
       '@types/scheduler': 0.16.4
@@ -842,8 +842,8 @@ packages:
     hasBin: true
     dev: false
 
-  /alpinejs@3.13.5:
-    resolution: {integrity: sha512-1d2XeNGN+Zn7j4mUAKXtAgdc4/rLeadyTMWeJGXF5DzwawPBxwTiBhFFm6w/Ei8eJxUZeyNWWSD9zknfdz1kEw==}
+  /alpinejs@3.13.7:
+    resolution: {integrity: sha512-rcTyjTANbsePq1hb7eSekt3qjI94HLGeO6JaRjCssCVbIIc+qBrc7pO5S/+2JB6oojIibjM6FA+xRI3zhGPZIg==}
     dependencies:
       '@vue/reactivity': 3.1.5
     dev: false
@@ -912,8 +912,8 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
     dev: false
 
-  /astro@4.4.9(@types/node@20.11.24):
-    resolution: {integrity: sha512-FTWhzKjao7rHHiF/CqPqPS18AFad+fmUcYUFhWWIsYETHcc9g0IIIiv6cHXUE7g6mEZf7ycAa+WdboeEHUhraQ==}
+  /astro@4.4.15(@types/node@20.11.25):
+    resolution: {integrity: sha512-RTiAnlO8hDp6GqMVvaeJxyuCJhHNEho09lHshMNQBqgRabYPOJGW0HZZrbLRGNOqN9I14ivhZIunYGgAaGQpWw==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -976,7 +976,7 @@ packages:
       tsconfck: 3.0.0
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.1.4(@types/node@20.11.24)
+      vite: 5.1.4(@types/node@20.11.25)
       vitefu: 0.2.5(vite@5.1.4)
       which-pm: 2.1.1
       yargs-parser: 21.1.1
@@ -2841,8 +2841,8 @@ packages:
       sass-formatter: 0.7.8
     dev: true
 
-  /prettier-plugin-tailwindcss@0.5.11(prettier-plugin-astro@0.13.0)(prettier@3.2.5):
-    resolution: {integrity: sha512-AvI/DNyMctyyxGOjyePgi/gqj5hJYClZ1avtQvLlqMT3uDZkRbi4HhGUpok3DRzv9z7Lti85Kdj3s3/1CeNI0w==}
+  /prettier-plugin-tailwindcss@0.5.12(prettier-plugin-astro@0.13.0)(prettier@3.2.5):
+    resolution: {integrity: sha512-o74kiDBVE73oHW+pdkFSluHBL3cYEvru5YgEqNkBMFF7Cjv+w1vI565lTlfoJT4VLWDe0FMtZ7FkE/7a4pMXSQ==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
@@ -2857,6 +2857,7 @@ packages:
       prettier-plugin-marko: '*'
       prettier-plugin-organize-attributes: '*'
       prettier-plugin-organize-imports: '*'
+      prettier-plugin-sort-imports: '*'
       prettier-plugin-style-order: '*'
       prettier-plugin-svelte: '*'
       prettier-plugin-twig-melody: '*'
@@ -2882,6 +2883,8 @@ packages:
       prettier-plugin-organize-attributes:
         optional: true
       prettier-plugin-organize-imports:
+        optional: true
+      prettier-plugin-sort-imports:
         optional: true
       prettier-plugin-style-order:
         optional: true
@@ -3689,7 +3692,7 @@ packages:
       vfile-message: 4.0.2
     dev: false
 
-  /vite@5.1.4(@types/node@20.11.24):
+  /vite@5.1.4(@types/node@20.11.25):
     resolution: {integrity: sha512-n+MPqzq+d9nMVTKyewqw6kSt+R3CkvF9QAKY8obiQn8g1fwTscKxyfaYnC632HtBXAQGc1Yjomphwn1dtwGAHg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -3717,7 +3720,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.11.24
+      '@types/node': 20.11.25
       esbuild: 0.19.8
       postcss: 8.4.35
       rollup: 4.7.0
@@ -3733,7 +3736,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.1.4(@types/node@20.11.24)
+      vite: 5.1.4(@types/node@20.11.25)
     dev: false
 
   /web-namespaces@2.0.1:
