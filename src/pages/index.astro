@@ -15,7 +15,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro'
     class="h-full w-full select-none"
   >
     <div
-      class="ease animate-fade-in-view mx-auto max-w-6xl select-none opacity-0 delay-300 duration-1000"
+      class="ease animate-fade-in-view mx-auto max-w-6xl opacity-0 delay-300 duration-1000 select-none"
       style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);"
     >
       <ul
@@ -30,7 +30,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro'
               :src="image.src"
               :alt="image.alt"
               :data-index="index+1"
-              class="aspect-[5/6] h-auto w-full cursor-zoom-in select-none rounded bg-gray-200 object-cover lg:aspect-[2/3] xl:aspect-[3/4]"
+              class="aspect-[5/6] h-auto w-full cursor-zoom-in rounded bg-gray-200 object-cover select-none lg:aspect-[2/3] xl:aspect-[3/4]"
             />
           </li>
         </template>
@@ -46,7 +46,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro'
         @click="imageGalleryClose"
         @keydown.window.escape="imageGalleryClose"
         x-trap.inert.noscroll="imageGalleryOpened"
-        class="fixed inset-0 z-[99] flex cursor-zoom-out select-none items-center justify-center bg-black bg-opacity-50"
+        class="bg-opacity-50 fixed inset-0 z-[99] flex cursor-zoom-out items-center justify-center bg-black select-none"
         x-cloak
       >
         <div
@@ -75,7 +75,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro'
             x-transition:enter-start="opacity-0 transform scale-50"
             x-transition:leave="transition ease-in-in duration-300"
             x-transition:leave-end="opacity-0 transform scale-50"
-            class="h-full w-full cursor-zoom-out select-none object-contain object-center"
+            class="h-full w-full cursor-zoom-out object-contain object-center select-none"
             :src="imageGalleryActiveUrl"
             alt=""
             style="display: none;"
