@@ -1,6 +1,6 @@
 // @ts-check
-import { defineConfig } from "astro/config";
-import tailwindcss from "@tailwindcss/vite";
+import { defineConfig } from 'astro/config'
+import tailwindcss from '@tailwindcss/vite'
 import alpinejs from '@astrojs/alpinejs'
 import { defineConfig } from 'astro/config'
 
