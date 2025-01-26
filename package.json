@@ -1,6 +1,6 @@
 {
   "name": "@area44/astro-everest",
-  "version": "23.9.30",
+  "version": "25.01.27",
   "private": true,
   "description": "An image gallery built with Astro, Alpine.js and Tailwind CSS",
   "scripts": {
