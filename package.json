@@ -12,17 +12,17 @@
   },
   "dependencies": {
     "@astrojs/alpinejs": "^0.4.3",
-    "@tailwindcss/vite": "^4.0.6",
+    "@tailwindcss/vite": "^4.0.8",
     "alpinejs": "^3.14.8",
     "astro": "^5.3.0",
-    "tailwindcss": "^4.0.6"
+    "tailwindcss": "^4.0.8"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/alpinejs": "^3.13.11",
-    "@types/node": "^22.13.4",
-    "@types/react": "^19.0.9",
-    "@types/react-dom": "^19.0.3"
+    "@types/node": "^22.13.5",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4"
   },
   "packageManager": "pnpm@10.4.1"
 }
