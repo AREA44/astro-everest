@@ -11,18 +11,18 @@
     "format": "biome format --write ."
   },
   "dependencies": {
-    "@astrojs/alpinejs": "^0.4.6",
+    "@astrojs/alpinejs": "^0.4.7",
     "@tailwindcss/vite": "^4.1.4",
     "alpinejs": "^3.14.9",
-    "astro": "^5.7.4",
+    "astro": "^5.7.5",
     "tailwindcss": "^4.1.4"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/alpinejs": "^3.13.11",
-    "@types/node": "^22.14.1",
+    "@types/node": "^22.15.2",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2"
   },
-  "packageManager": "pnpm@10.8.1"
+  "packageManager": "pnpm@10.9.0"
 }
