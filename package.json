@@ -14,14 +14,14 @@
     "@astrojs/alpinejs": "^0.4.8",
     "@tailwindcss/vite": "^4.1.7",
     "alpinejs": "^3.14.9",
-    "astro": "^5.7.13",
+    "astro": "^5.8.0",
     "tailwindcss": "^4.1.7"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/alpinejs": "^3.13.11",
-    "@types/node": "^22.15.18",
-    "@types/react": "^19.1.4",
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5"
   },
   "packageManager": "pnpm@10.11.0"
