@@ -18,7 +18,8 @@
     "tailwindcss": "^4.1.10"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
+    "@area44/biome-config": "^2.0.1",
+    "@biomejs/biome": "^2.0.0",
     "@types/alpinejs": "^3.13.11",
     "@types/node": "^22.15.31",
     "@types/react": "^19.1.8",
