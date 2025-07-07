@@ -12,6 +12,6 @@ permissions:
 
 jobs:
   astro:
-    uses: area44/actions-lib/.github/workflows/astro.yml@v0.4.0
+    uses: area44/actions-lib/.github/workflows/astro.yml@v0.4.1
     with:
       run_deploy: true
